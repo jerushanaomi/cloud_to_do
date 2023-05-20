@@ -1,0 +1,11 @@
+{% extends 'todo/base.html' %}
+{% block content %}
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<h2>You have been Logged Out</h2>
+<div class="border-top pt-3">
+    <small class="text-muted">
+        <a class='ml-2' href="{% url 'login' %}">Sign In</a>
+    </small>
+</div>
+</div>
+{% endblock content %}
